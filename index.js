@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api/users', userRoutes);
 app.use('/api/claims', claimRoutes);
 
-mongoose.connect('mongodb+srv://shreyagour100:gSJp75MSbCYgGEZC@clusterleader.53s1jhk.mongodb.net/?retryWrites=true&w=majority&appName=Clusterleader', { 
+mongoose.connect('process.env.MONGODB_URI', { 
     useNewUrlParser: true, 
     useUnifiedTopology: true })
   .then(() =>
