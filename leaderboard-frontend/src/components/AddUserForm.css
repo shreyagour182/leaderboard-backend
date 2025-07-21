@@ -1,0 +1,3 @@
+.add-user-form { display: flex; gap: 0.7rem; margin: 0.3rem 0; }
+.add-user-form input { padding: 7px 10px; border-radius: 6px; border: 1.5px solid #eeb83e; font-size: 15px;}
+.add-user-form button { background: #ffd143; border: none; border-radius: 6px; padding: 6px 13px; font-weight: 600;}

@@ -1,0 +1,17 @@
+.claim-history { margin: 1.1rem 0 0 0;}
+.claim-history ul { font-size: 0.97rem; list-style: disc;padding:0 0 0 1.1em; margin:0;}
+.show-more-btn {
+  margin-top: 0.6em;
+  padding: 0.5em 1.3em;
+  background-color: #ffd143;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  color: #705800;
+  cursor: pointer;
+  box-shadow: 0 1px 8px #ffecc4;
+  transition: background 0.2s;
+}
+.show-more-btn:hover {
+  background-color: #ffe058;
+}

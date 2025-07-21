@@ -1,0 +1,51 @@
+.lb-root {
+  background: #fcf7ea;
+  border-radius: 19px;
+  box-shadow: 0 0 26px #ead;
+  padding: 2rem 1.2rem 1.5rem;
+  max-width: 520px;
+  margin: 1.5rem auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.tabs-bar { display: flex; gap: 1.2rem; justify-content: center; margin-bottom: 1.2rem; }
+.tab-btn { background: none; border: none; padding: 10px 25px; font-weight: 700; border-radius: 12px; font-size: 1rem; color: #c9a958; }
+.tab-btn.active { background: #fff9cd; color: #94801e; box-shadow: 0 4px 11px #ffd70045; }
+.podium { display: flex; gap: 1.3rem; justify-content: center; margin-bottom: 1.1rem; }
+.podium-card { background: #fff6df; border-radius: 12px; flex: 1; text-align: center; padding: 0.8rem 0.5rem; box-shadow: 0 5px 10px #fff2b1d0; min-width: 95px;}
+.podium-card.first { border: 2.5px solid gold; font-size: 1.2em; position: relative;}
+.podium-crown { height:26px; background: url('https://www.pngall.com/wp-content/uploads/14/King-Crown-PNG-Pic.png') center no-repeat; background-size: contain; margin: 0 auto 0.3em auto; }
+.podium-card.second { border: 2px solid #bebebe; }
+.podium-card.third { border: 2px solid #b59161; }
+.podium-rank { font-size: 1.15em; margin-bottom: 0.3em;}
+.podium-rank.gold { color: #dab842; }
+.podium-rank.silver { color: #bebebe; }
+.podium-rank.bronze { color: #b59161; }
+.lb-table-wrap { background: #f7ecd3; border-radius: 12px; margin-bottom:1.1rem; box-shadow: 0 1px 12px #f2e5b7; overflow-x: auto; }
+.lb-table { width: 100%; border-collapse: collapse;}
+.lb-table th, .lb-table td { padding: 8px 15px; text-align: left;}
+.lb-table tr.selected {background: #fffad4;}
+.lb-table tr:nth-child(even) {background: #fcf3d4;}
+.add-user-form { display: flex; gap: 0.7rem; margin: 0.3rem 0; }
+.add-user-form input { padding: 7px 10px; border-radius: 6px; border: 1.5px solid #eeb83e; font-size: 15px;}
+.add-user-form button { background: #ffd143; border: none; border-radius: 6px; padding: 6px 13px; font-weight: 600;}
+.claim-btn { background: #ffd678; color: #705800; font-weight: 600; padding: .5rem 1.5rem; border-radius: 9px; border: none; font-size: 1.02rem; margin: 0.4rem 0 0.7rem 15px; box-shadow: 0 2px 10px #fedc8d70;}
+.lb-controls { display: flex; justify-content: flex-start; gap: 2rem; align-items: center;}
+.claim-history { margin: 1.1rem 0 0 0;}
+.claim-history ul { font-size: 0.97rem; list-style: disc;padding:0 0 0 1.1em; margin:0;}
+
+.lb-subtabs-bar {
+  margin-bottom: 1.04em;
+  position: relative;
+}
+.lb-subtabs-inner {
+  margin: 0 auto;
+}
+.lb-subtab-btn {
+  margin: 0 3.5px;
+}
+.lb-subtab-btn.active {
+  /* already color styled inline, but fallback here if you want */
+}
+.lb-reward-btn {
+  /* already styled inline, but can add more here if needed */
+}
